@@ -21,7 +21,7 @@ IDA64_DIR = "installation directory of 64-bit IDA Pro program"
 ## Viewing the search result
 The following figure is an example of the search result.
 
-![avatar][fig/search_example.png]
+![avatar](./fig/search_example.png)
 
  For each vulnerability function, there are a total of 48 compiled versions. These versions contain different architectures (X86, X64, ARM32, ARM64, MIPS32 and MIPS64), compilers (GCC v4.9 and GCC v5.5) with four optimization levels (O0-O3). 
 - Column A records the function name.
