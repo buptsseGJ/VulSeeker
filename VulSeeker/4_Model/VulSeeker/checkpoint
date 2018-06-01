@@ -1,0 +1,2 @@
+model_checkpoint_path: "/media/yx/F/IDA/IDA_Pro_v6.4_Linux/python/VulSeeker/4_Model/VulSeeker/vulseeker-model_final.ckpt"
+all_model_checkpoint_paths: "/media/yx/F/IDA/IDA_Pro_v6.4_Linux/python/VulSeeker/4_Model/VulSeeker/vulseeker-model_final.ckpt"
