@@ -28,6 +28,3 @@ The following figure is an example of the search result.
 - Column B is the average similarity score between the corresponding function and the vulnerability function with 48 compiled versions.
 - Column C records the file to which the function belongs.
 - The other items after column C are the similarity scores between a particular version of the vulnerability and the corresponding function.
-
-## Download
-Because GitHub limits the size of files, we have to store programs on the  Google Drive. The website is available at https://drive.google.com/drive/folders/14ibzAk8RfXwLfW1J4fSifMQwnNdGJsa9. Sorry for the inconvenience.
