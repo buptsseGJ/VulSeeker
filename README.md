@@ -14,9 +14,9 @@ To use VulSeeker, we need the following tools installed
 IDA32_DIR = "installation directory of 32-bit IDA Pro program"
 IDA64_DIR = "installation directory of 64-bit IDA Pro program"
 ```
-2. We put the programs to be searched in the `/VulSeeker/0_Libs/search_program` directory.
-3. We run the `command.py` file to generate the labeled semantic flow graphs and extract initial numerical vectors for basic blocks.
-4. We execute the `search_by_list_vulseeker.py` file to obtain embedding vectors of the functions and get the function list in descending order of similarity scores.
+2. We put the programs to be searched in the `VulSeeker/0_Libs/search_program` directory.
+3. We run the `VulSeeker/command.py` file to generate the labeled semantic flow graphs and extract initial numerical vectors for basic blocks.
+4. We execute the `VulSeeker/search_by_list_vulseeker.py` file to obtain embedding vectors of the functions and get the function list in descending order of similarity scores.
 
 ## Viewing the search result
 The following figure is an example of the search result.
