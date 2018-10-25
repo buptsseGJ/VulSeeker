@@ -85,16 +85,14 @@ ln -s /usr/local/python2713/bin/python /usr/bin/python
 If you want to train your own network model, you need to install tensorflow-1.1.0 version. We build this version of tensorflow from source code. The following is the detailed installation instructions (for cpu-only tensorflow) on the ubuntu14 machine.
 
 1. install dependent packages
-`sudo apt-get install zlib1g-dev swig python-wheel pkg-config zip g++ unzip python-numpy python-dev
-`
-`wget https://pypi.python.org/packages/c8/0a/b6723e1bc4c516cb687841499455a8505b44607ab535be01091c0f24f079/six-1.10.0-py2.py3-none-any.whl#md5=3ab558cf5d4f7a72611d59a81a315dc8 #download and install six
-`
-`sudp pip install six-1.10.0-py2.py3-none-any.whl 
-`
-`sudo pip install networkx
+```
+sudo apt-get install zlib1g-dev swig python-wheel pkg-config zip g++ unzip python-numpy python-dev
+wget https://pypi.python.org/packages/c8/0a/b6723e1bc4c516cb687841499455a8505b44607ab535be01091c0f24f079/six-1.10.0-py2.py3-none-any.whl#md5=3ab558cf5d4f7a72611d59a81a315dc8 #download and install six
+sudo pip install six-1.10.0-py2.py3-none-any.whl 
+sudo pip install networkx
 sudo pip install pyparsing
 sudo pip install numpy
-`
+```
 2. install bazel building tool
 - Download `bazel-0.4.2-installer-linux-x86_64.sh` from https://github.com/bazelbuild/bazel .
 - `chmod +x bazel-0.4.2-installer-linux-x86_64.sh`
